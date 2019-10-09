@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>85871070704-8ltrik44r2ihgkdt6njrbur1d9ip3247.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.85871070704-8ltrik44r2ihgkdt6njrbur1d9ip3247</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZhz9DDrn9q2kw1K93JfjJingxSANgvgM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>85871070704</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>codes.arusey.Tembea</string>
+	<key>PROJECT_ID</key>
+	<string>tembea-6c5b8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tembea-6c5b8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:85871070704:ios:ac510089f6225a60f9e135</string>
+	<key>DATABASE_URL</key>
+	<string>https://tembea-6c5b8.firebaseio.com</string>
+</dict>
+</plist>

@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EDAD8310A6BD5EE2E3A8488 /* Pods_Tembea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B85D19C92446C2970A4EED /* Pods_Tembea.framework */; };
+		4E4E6F092348C42400B70E7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E6F082348C42400B70E7D /* GoogleService-Info.plist */; };
+		4E736EEF2347B9C8009AD40F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E736EEE2347B9C8009AD40F /* StartViewController.swift */; };
+		4E736EF12347B9DB009AD40F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E736EF02347B9DB009AD40F /* LoginViewController.swift */; };
+		4E736EF32347B9FE009AD40F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E736EF22347B9FE009AD40F /* SignUpViewController.swift */; };
+		4E736EF52347BA0D009AD40F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E736EF42347BA0D009AD40F /* HomeViewController.swift */; };
 		4EEBC60B23475281009815EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBC60A23475281009815EB /* AppDelegate.swift */; };
 		4EEBC60D23475281009815EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEBC60C23475281009815EB /* ViewController.swift */; };
 		4EEBC61023475281009815EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBC60E23475281009815EB /* Main.storyboard */; };
 		4EEBC61223475282009815EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBC61123475282009815EB /* Assets.xcassets */; };
 		4EEBC61523475282009815EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEBC61323475282009815EB /* LaunchScreen.storyboard */; };
+		4EEE40DF23571E0F004EE766 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE40DE23571E0F004EE766 /* DestinationTableViewCell.swift */; };
+		4EEE40E123571E5A004EE766 /* DestinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE40E023571E5A004EE766 /* DestinationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4E6F082348C42400B70E7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E736EEE2347B9C8009AD40F /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4E736EF02347B9DB009AD40F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4E736EF22347B9FE009AD40F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4E736EF42347BA0D009AD40F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4EEBC60723475281009815EB /* Tembea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tembea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EEBC60A23475281009815EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EEBC60C23475281009815EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,11 @@
 		4EEBC61123475282009815EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EEBC61423475282009815EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EEBC61623475282009815EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEE40DE23571E0F004EE766 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
+		4EEE40E023571E5A004EE766 /* DestinationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationTableViewController.swift; sourceTree = "<group>"; };
+		98B85D19C92446C2970A4EED /* Pods_Tembea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tembea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E13C152A4E6E022D29F4BC /* Pods-Tembea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tembea.debug.xcconfig"; path = "Target Support Files/Pods-Tembea/Pods-Tembea.debug.xcconfig"; sourceTree = "<group>"; };
+		E49917D0B94626E96FDE8479 /* Pods-Tembea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tembea.release.xcconfig"; path = "Target Support Files/Pods-Tembea/Pods-Tembea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDAD8310A6BD5EE2E3A8488 /* Pods_Tembea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E328191EC4B1F10D3E10059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E13C152A4E6E022D29F4BC /* Pods-Tembea.debug.xcconfig */,
+				E49917D0B94626E96FDE8479 /* Pods-Tembea.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4EEBC5FE23475281009815EB = {
 			isa = PBXGroup;
 			children = (
 				4EEBC60923475281009815EB /* Tembea */,
 				4EEBC60823475281009815EB /* Products */,
+				2E328191EC4B1F10D3E10059 /* Pods */,
+				A207C434366D9C8C281FFE7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +86,27 @@
 			children = (
 				4EEBC60A23475281009815EB /* AppDelegate.swift */,
 				4EEBC60C23475281009815EB /* ViewController.swift */,
+				4E736EEE2347B9C8009AD40F /* StartViewController.swift */,
+				4E736EF02347B9DB009AD40F /* LoginViewController.swift */,
+				4E736EF22347B9FE009AD40F /* SignUpViewController.swift */,
+				4E736EF42347BA0D009AD40F /* HomeViewController.swift */,
+				4EEE40DE23571E0F004EE766 /* DestinationTableViewCell.swift */,
+				4EEE40E023571E5A004EE766 /* DestinationTableViewController.swift */,
 				4EEBC60E23475281009815EB /* Main.storyboard */,
 				4EEBC61123475282009815EB /* Assets.xcassets */,
 				4EEBC61323475282009815EB /* LaunchScreen.storyboard */,
 				4EEBC61623475282009815EB /* Info.plist */,
+				4E4E6F082348C42400B70E7D /* GoogleService-Info.plist */,
 			);
 			path = Tembea;
+			sourceTree = "<group>";
+		};
+		A207C434366D9C8C281FFE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98B85D19C92446C2970A4EED /* Pods_Tembea.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EEBC61923475282009815EB /* Build configuration list for PBXNativeTarget "Tembea" */;
 			buildPhases = (
+				D5A588402CA3B77CD7F3144A /* [CP] Check Pods Manifest.lock */,
 				4EEBC60323475281009815EB /* Sources */,
 				4EEBC60423475281009815EB /* Frameworks */,
 				4EEBC60523475281009815EB /* Resources */,
+				A14E23AB114E29D5D323C097 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEBC61523475282009815EB /* LaunchScreen.storyboard in Resources */,
+				4E4E6F092348C42400B70E7D /* GoogleService-Info.plist in Resources */,
 				4EEBC61223475282009815EB /* Assets.xcassets in Resources */,
 				4EEBC61023475281009815EB /* Main.storyboard in Resources */,
 			);
@@ -130,13 +178,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A14E23AB114E29D5D323C097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tembea/Pods-Tembea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tembea/Pods-Tembea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tembea/Pods-Tembea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A588402CA3B77CD7F3144A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tembea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EEBC60323475281009815EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEE40E123571E5A004EE766 /* DestinationTableViewController.swift in Sources */,
+				4EEE40DF23571E0F004EE766 /* DestinationTableViewCell.swift in Sources */,
+				4E736EF12347B9DB009AD40F /* LoginViewController.swift in Sources */,
 				4EEBC60D23475281009815EB /* ViewController.swift in Sources */,
 				4EEBC60B23475281009815EB /* AppDelegate.swift in Sources */,
+				4E736EEF2347B9C8009AD40F /* StartViewController.swift in Sources */,
+				4E736EF32347B9FE009AD40F /* SignUpViewController.swift in Sources */,
+				4E736EF52347BA0D009AD40F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +376,7 @@
 		};
 		4EEBC61A23475282009815EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E13C152A4E6E022D29F4BC /* Pods-Tembea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +394,7 @@
 		};
 		4EEBC61B23475282009815EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49917D0B94626E96FDE8479 /* Pods-Tembea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
